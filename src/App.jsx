@@ -4,6 +4,9 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
+   // react give certain rule to change in the UI , we cannot change the UI without using the hooks
+  // but we can change the console output without using hooks*********
+  // we have to follow such standard to change the data in the UI
   let [count, setCount] = useState(0);
   // const
 
